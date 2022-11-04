@@ -1,0 +1,78 @@
+/*Hero*/
+h1 {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: rgb(0, 0, 0);
+
+}
+
+.hero {
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    background-color: rgb(0, 0, 140);
+    margin: auto;
+}
+
+.nav {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 41, 96);
+    
+}
+.sub-menu {
+    text-align: center;
+}
+
+
+/*Anchor and linked*/
+
+a {
+    color: aliceblue;
+}
+
+.menu {
+    text-align: left;
+}
+
+button#menu {
+    position: right;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    font-style: normal;
+}
+
+/* Main Section */
+.main {
+    background-color: beige;
+    border: 3px rgb(22, 0, 51) solid;
+
+}
+
+article {
+    color: aliceblue;
+    background-color: black;
+    padding: 1px 8px;
+    border: 0.5px rgb(22, 0, 51) solid;
+    line-break: 10px;
+    margin: 10px 5px;
+    padding: 5;
+
+}
+
+
+.usertalk {
+    color: aliceblue;
+    background-color: rgb(0, 0, 140);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-break: 20px;
+    line-height: 59px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    
+}

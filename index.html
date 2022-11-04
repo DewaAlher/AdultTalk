@@ -6,20 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <Header>
+    <Header class="hero">
         <h1>Adulthood</h1>
-    </Header>
+    
     <div class="nav">
-        <button>Menu</button>
-        <sub-nav>Home</sub-nav>
-        <sub-nav>Contact</sub-nav>
-        <sub-nav class="sub-menu">Article
-        </sub-nav>
+        <sub-nav class="sub-menu"><a href="index.html">Home</a> </sub-nav>
+        <sub-nav class="sub-menu"><a href="forum.html">Forum</a></sub-nav>
+        <sub-nav class="sub-menu"><a href="about.html">About</a> </sub-nav>
+
+        <label for="Menu" value="Menu Lengkap">Menu</label>
+        <button id="menu" type="button" name="Menu"> Menu </button>
+    </Header>
     </div>
-    <main>
+
+    <main class="main">
         <article>
             <h2>Is Becoming Parent Are So That Hard?</h2>
             <p>If you are not a listener person you shouldn't have a child or not to make a child with your wife or
@@ -94,29 +98,32 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Species </th>
-                        <Th>Are They Cry?</Th>
-                        <th>Should Stop Cry</th>
-                        <th>Reason Why</th>
+                        <th rowspan="2">Species </th>
+                        <Th colspan="2">Shoud They</Th>
+                        <th rowspan="2">Reason Why</th>
+                    </tr>
+                    <tr>
+                        <th>Stop Cry</th>
+                        <th>Continue Cry</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Adult</td>
                         <td>Yes</td>
-                        <td>Yes</td>
+                        <td>No</td>
                         <td>Because you're now an adult!</td>
                     </tr>
                     <tr>
                         <td>Child</td>
                         <td>Yes</td>
-                        <td>No</td>
+                        <td>Yes</td>
                         <td>Because they're child. They dont know what to do in life</td>
 
                     </tr>
                     <td>Man</td>
                     <td>Yes</td>
-                    <td>Yes</td>
+                    <td>No</td>
                     <td>Because a man is a man</td>
                 </tbody>
             </table>
@@ -128,11 +135,27 @@
             praesentium voluptatum quas, laudantium accusantium reiciendis. Quod consequuntur, corporis earum ullam
             corrupti nesciunt dolore tenetur!</p> 
         </article>
-        <article></article>
     </main>
-    <section>
 
+
+    <section class="usertalk">
+<label for="name" value="Name">Name :</label>
+<input type="text" name="name">
+
+<label for="category">What kind do you want to?</label>
+    <select name="category" id="category">
+        <option value="complaint">Complaint</option>
+        <option value="feedback">Feedback</option>
+        <option value="suggest">Suggestion</option>
+    </select>
+
+<br>
+<label for="story" value="story">
+    <textarea name="story" id="story" cols="80" rows="10"></textarea>
+
+</label>
     </section>
+
     <footer></footer>
 </body>
 
