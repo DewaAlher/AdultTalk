@@ -6,22 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="/AdultTalk/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <Header class="hero">
+   <div class="header">
         <h1>Adulthood</h1>
     
-    <div class="nav">
-        <sub-nav class="sub-menu"><a href="index.html">Home</a> </sub-nav>
-        <sub-nav class="sub-menu"><a href="forum.html">Forum</a></sub-nav>
-        <sub-nav class="sub-menu"><a href="about.html">About</a> </sub-nav>
+        <div class="main-nav">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="forum.html">Forum</a>
+          </div>
+     </div>
 
-        <label for="Menu" value="Menu Lengkap">Menu</label>
-        <button id="menu" type="button" name="Menu"> Menu </button>
-    </Header>
-    </div>
 
     <main class="main">
         <article>
@@ -138,7 +136,7 @@
     </main>
 
 
-    <section class="usertalk">
+    <div class="usertalk">
 <label for="name" value="Name">Name :</label>
 <input type="text" name="name">
 
@@ -154,7 +152,7 @@
     <textarea name="story" id="story" cols="80" rows="10"></textarea>
 
 </label>
-    </section>
+</div>
 
     <footer></footer>
 </body>
